@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "TT-001",
+      "category": "ACCESS",
+      "severity": "HIGH",
+      "keywords": [
+        "locked out",
+        "cannot login",
+        "can\u2019t login",
+        "password reset"
+      ],
+      "reason": "Access failure prevents normal work."
+    },
+    {
+      "id": "TT-002",
+      "category": "BILLING",
+      "severity": "HIGH",
+      "keywords": [
+        "charged twice",
+        "duplicate charge",
+        "double charged"
+      ],
+      "reason": "Duplicate billing may create immediate financial impact."
+    },
+    {
+      "id": "TT-003",
+      "category": "OUTAGE",
+      "severity": "CRITICAL",
+      "keywords": [
+        "service down",
+        "outage",
+        "all users",
+        "everyone cannot"
+      ],
+      "reason": "Broad service interruption indicates critical operational impact."
+    },
+    {
+      "id": "TT-004",
+      "category": "BUG",
+      "severity": "MEDIUM",
+      "keywords": [
+        "error",
+        "bug",
+        "broken",
+        "fails"
+      ],
+      "reason": "A reproducible product failure requires investigation."
+    },
+    {
+      "id": "TT-005",
+      "category": "REQUEST",
+      "severity": "LOW",
+      "keywords": [
+        "feature request",
+        "would like",
+        "suggestion"
+      ],
+      "reason": "Feature requests are non-incident product input."
+    }
+  ]
+}

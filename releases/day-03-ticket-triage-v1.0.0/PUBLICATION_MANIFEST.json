@@ -1,0 +1,145 @@
+{
+  "schema": "DAY03_PUBLICATION_PROJECTION_V1",
+  "release": "DAY-03/P01",
+  "product": "Ticket Triage v1.0.0",
+  "frozen_review_subject_sha256": "f79cbfe9187c76d1a0a7f0eef227b6fe1f60507327b84e7f82ff42a607d7141a",
+  "projection_role": "PUBLIC_PRODUCT_DOWNLOAD_TEXT_SURFACE",
+  "entries": [
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 199,
+      "sha256": "7d7a1199452994687711c9ff827e4bb8c877bcc17ba8da678ccba48586946e45",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "CLAIMS_LIMITATIONS.md",
+      "bytes": 364,
+      "sha256": "6e3e965a108bbb8a4dbdfef3bd8f705ca81d41b56b0725972f326f1777f108a7",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "README.md",
+      "bytes": 296,
+      "sha256": "36ba2491e141b2858992ff3d8ee056ade684868e4e1fc4e916a5e1d1f4ca850d",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "RIGHTS_LICENSE.md",
+      "bytes": 280,
+      "sha256": "19c6b7dc517d85a1daa7b8a4a87e92d29252d699d0e44aed8ef5c15bd3c79775",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "SECURITY_PRIVACY.md",
+      "bytes": 202,
+      "sha256": "23c9597c519c98044ea4dfb1bb5d60395adbb375a373f8ad206384a7df017cd9",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 189,
+      "sha256": "cd997e29608a6f7129814241c21c19338e88df102be702d835729f0bd3d5f098",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "evidence/PRODUCT_QA.json",
+      "bytes": 356,
+      "sha256": "f129597af965c68c4fba95c41bfcef710c4bdcd3999d94c3da18cf085dfbd799",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "evidence/RECOVERY_PROOF.json",
+      "bytes": 305,
+      "sha256": "8d1e466d6c2b2fa448dc858c343610cfb0d0a746ee5105fda0405fbfd4ca8d5a",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "product/app.js",
+      "bytes": 2072,
+      "sha256": "799b439b90b30b74d04d8403e4d6898a2a5282ae969f2de230898aed4887ca02",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "product/index.html",
+      "bytes": 1305,
+      "sha256": "e4539ac1954db0992e5c71e59f10258de5f8d8656ce284b727cbced078ffdb15",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "product/rules.json",
+      "bytes": 1392,
+      "sha256": "119996accde00e98a23d419459c105c1f119120f4f03071eb446a1afa5e98b86",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "product/style.css",
+      "bytes": 1131,
+      "sha256": "6ca003c878a5f73de8386a736922d1a603c558b3d907593cd3f2274c4cb79312",
+      "source": "FROZEN_BUILD_EXACT"
+    },
+    {
+      "path": "tests/test.js",
+      "bytes": 956,
+      "sha256": "9079772d5eaf164f1775c93c60efc9cd46bfcea2180dc7ca8f41864806db0370",
+      "source": "FROZEN_BUILD_EXACT"
+    }
+  ],
+  "excluded_from_github_product_surface": [
+    {
+      "path": "public/carousel_01.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/carousel_02.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/carousel_03.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/carousel_04.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/carousel_05.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/product_screenshot.png",
+      "reason": "SOCIAL_ASSET_SEPARATE_LINKEDIN_PUBLICATION"
+    },
+    {
+      "path": "public/LINKEDIN_DRAFT.md",
+      "reason": "FINALIZED_ONLY_AFTER_VERIFIED_PUBLIC_URL"
+    },
+    {
+      "path": "MANIFEST.json",
+      "reason": "FULL_BUILD_MANIFEST_REFERENCES_SOCIAL_ASSETS_NOT_HOSTED_ON_PRODUCT_SURFACE"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "reason": "FULL_BUILD_LEDGER_REFERENCES_SOCIAL_ASSETS_NOT_HOSTED_ON_PRODUCT_SURFACE"
+    },
+    {
+      "path": "RECOVERY.md",
+      "reason": "FULL_BUILD_RECOVERY_TEXT_REFERENCES_FINAL_RELEASE_ZIP_NOT_THIS_TEXT_SURFACE"
+    },
+    {
+      "path": "evidence/CLAIM_LEDGER.json",
+      "reason": "FULL_BUILD_CLAIM_LEDGER_REFERENCES_SOCIAL_SCREENSHOT"
+    },
+    {
+      "path": "evidence/LIVE_REVIEW.json",
+      "reason": "PRODUCER_INTERNAL_EVIDENCE_NOT_REQUIRED_ON_PUBLIC_PRODUCT_SURFACE"
+    },
+    {
+      "path": "evidence/PP_MATRIX.json",
+      "reason": "LIFECYCLE_INTERNAL_EVIDENCE_NOT_REQUIRED_ON_PUBLIC_PRODUCT_SURFACE"
+    },
+    {
+      "path": "evidence/PUBLIC_QA.json",
+      "reason": "REFERENCES_SOCIAL_ASSETS_PUBLISHED_SEPARATELY"
+    }
+  ]
+}
