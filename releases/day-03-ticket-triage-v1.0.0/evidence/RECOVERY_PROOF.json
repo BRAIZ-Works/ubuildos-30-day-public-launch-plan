@@ -1,8 +1,0 @@
-{
-  "BACKUP_EXISTS": true,
-  "INTEGRITY_VERIFIED": true,
-  "RESTORE_TESTED": true,
-  "RESTORED_STATE_VERIFIED": true,
-  "backup_root_sha256": "522f87bbf4aa8f276018a06a2394ae6d69efca85afd46e28fce623a312d5e0a3",
-  "restored_root_sha256": "522f87bbf4aa8f276018a06a2394ae6d69efca85afd46e28fce623a312d5e0a3"
-}
